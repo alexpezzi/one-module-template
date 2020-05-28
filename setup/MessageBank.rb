@@ -60,8 +60,7 @@ module Pod
 
     def farewell_message
       puts ""
-
-      puts " Ace! you're ready to go!"
+      puts "✅  Ready to go!"
     end
 
 
