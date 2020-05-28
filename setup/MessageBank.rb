@@ -34,13 +34,9 @@ module Pod
         run_setup_questions
       end
 
-      puts "\n------------------------------"
-      puts ""
-      puts "To get you started we need to ask a few questions, this should only take a minute."
-      puts ""
-
       has_run_before = `defaults read org.cocoapods.pod-template HasRunBefore`.chomp == "1"
 
+      puts ""
       puts "If this is your first time we recommend running through with the guide: "
       puts " - "  + "https://guides.cocoapods.org/making/using-pod-lib-create.html".blue.underlined
 
