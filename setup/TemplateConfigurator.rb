@@ -75,6 +75,7 @@ module Pod
       replace_variables_in_files
       clean_template_files
       rename_template_files
+      rename_classes_folder
 
       @message_bank.farewell_message
     end
